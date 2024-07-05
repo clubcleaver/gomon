@@ -43,7 +43,7 @@
 #### 1. Downlaod the "Binary File":
 
 ```
-wget curl https://github.com/clubcleaver/glive/raw/main/glive.deb
+wget https://github.com/clubcleaver/glive/raw/main/glive.deb
 ```
 #### 2. Install the package
 ```sh
