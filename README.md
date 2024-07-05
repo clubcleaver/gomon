@@ -42,10 +42,6 @@
 >Using the Debian Package Manager / apt / apt-get.
 #### 1. Downlaod the "Binary File":
 
-```sh
-curl -O https://github.com/clubcleaver/glive/raw/main/glive.deb
-```
-###### OR
 ```
 wget curl https://github.com/clubcleaver/glive/raw/main/glive.deb
 ```
@@ -68,10 +64,6 @@ glive
 >Manual Install
 #### 1. Downlaod the "Binary File":
 
-```sh
-curl -O https://github.com/clubcleaver/glive/raw/main/glive
-```
-###### OR
 ```
 wget curl https://github.com/clubcleaver/glive/raw/main/glive
 ```
