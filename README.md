@@ -10,8 +10,8 @@
 
 # GOMON
 
-## Directory Watcher and Live Server :: Similar to NODEMON, But can work with any platform.
-### You can start any Process and watch any Directroy. Enjoy!!
+## Directory and File Watcher && Live Server :: Similar to NODEMON, But can work with any platform.
+### You can watch any Directroy and keep any Process Alive. Enjoy!!
 ## Features:
 * You can use with any platform like Nodejs, Golang, Python etc.
 * Run any command and Watch any directory.
