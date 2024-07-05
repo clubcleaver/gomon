@@ -57,7 +57,7 @@ Please make sure you are in the same directory as the glive.deb file, when runni
 ```sh
 glive
 ```
-#### To Uninstall
+## To Uninstall
 ```sh
 sudo apt purge glive
 ```
@@ -86,7 +86,7 @@ glive
 ```
 ---
 
-#### To Uninstall
+## To Uninstall
 ```sh
 rm <path/to/glive>
 ```
