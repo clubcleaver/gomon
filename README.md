@@ -15,7 +15,7 @@
 ## Features:
 * You can use with any platform like Nodejs, Golang, Python etc.
 * Run any command and Watch any directory.
-* Super fase, as built in Golang.
+* Super fast, as built in Golang.
 * Easy installation.
 * No dependencies.
 * Colorfull Info Prompts for readability.
