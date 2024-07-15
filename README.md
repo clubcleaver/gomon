@@ -26,14 +26,14 @@
 ## Usage: 
 ```sh
   SYNTAX:
-	glive -d <directory to be Watched.> -c "command to run" -s <path to skip> - Optional.
+	glive -d <directory to be Watched.> -c "command to run" -s "<path to skip>" - Optional.
 
   EXAMPLES: 
 	glive -d . -c "go run ./main.go"
 	glive -d . -c "go run ./cmd/app/main.go"
 	glive -d ./src -c "node src/app/index.js"
-	glive -d /tmp -c "python script.py -s /.git"
-	glive -d ./directory -c "./binary"
+	glive -d /tmp -c "python script.py" -s "/.git"
+	glive -d ./directory -c "./binary" -s "./logs"
 	glive -d ../. -c "any command"
 ```
 
@@ -44,21 +44,11 @@
 #### 1. Downlaod the "Binary File":
 
 ```sh
-curl -O https://github.com/clubcleaver/glive/raw/main/glive.deb
-```
-###### OR
-```
 wget curl https://github.com/clubcleaver/glive/raw/main/glive.deb
-```
-#### 2. Install the package
-```sh
 sudo apt install ./glive.deb
 ```
 
-> NOTE:
-Please make sure you are in the same directory as the glive.deb file, when running the command.
-
-#### 3. Use GLIVE
+#### 2. Use GLIVE
 ```sh
 glive
 ```
