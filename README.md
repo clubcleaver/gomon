@@ -5,9 +5,9 @@
                                 ▒██░▄▄▄ ▒██░    ▒██▒ ▓██  █▒  ███   
                                 ░▓█  ██ ▒██░    ░██░  ▒██ █░░▒▓█  ▄ 
                                 ░▒▓███▀▒░██████ ░██░   ▒▀█░   ▒████▒
-                                ░▒   ▒ ░ ▒░▓  ░ ▓     ░ ▐░  ░░ ▒░ ░
-                                ░ ░   ░  ░ ░    ▒ ░     ░░     ░   
-                                      ░    ░    ░        ░     ░  ░
+                                 ░▒   ▒ ░ ▒░▓  ░ ▓     ░ ▐░  ░░ ▒░ ░
+                                 ░ ░   ░  ░ ░    ▒ ░     ░░     ░   
+                                       ░    ░    ░        ░     ░  ░
 
 
 ## Directory and File Watcher && Live Server :: Similar to NODEMON, But can work with any platform.
@@ -15,6 +15,7 @@
 ## Features:
 * You can use with any platform like Nodejs, Golang, Python etc.
 * Run any command and Watch any directory.
+* Skip Directory or Files.
 * Super fast, as built in Golang.
 * Easy installation.
 * No dependencies.
@@ -25,13 +26,13 @@
 ## Usage: 
 ```sh
   SYNTAX:
-	glive -d <directory to be Watched.> -c "command to run"
+	glive -d <directory to be Watched.> -c "command to run" -s <path to skip> - Optional.
 
   EXAMPLES: 
 	glive -d . -c "go run ./main.go"
 	glive -d . -c "go run ./cmd/app/main.go"
 	glive -d ./src -c "node src/app/index.js"
-	glive -d /tmp -c "python script.py"
+	glive -d /tmp -c "python script.py -s /.git"
 	glive -d ./directory -c "./binary"
 	glive -d ../. -c "any command"
 ```
